@@ -13,6 +13,8 @@
 		8CEE0CE52816EDB1007EF2B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEE0CE32816EDB1007EF2B5 /* Main.storyboard */; };
 		8CEE0CE72816EDB3007EF2B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CEE0CE62816EDB3007EF2B5 /* Assets.xcassets */; };
 		8CEE0CEA2816EDB3007EF2B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEE0CE82816EDB3007EF2B5 /* LaunchScreen.storyboard */; };
+		8CEE0CF22816F81D007EF2B5 /* WeatherClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEE0CF12816F81D007EF2B5 /* WeatherClasses.swift */; };
+		8CEE0CF42816F93A007EF2B5 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEE0CF32816F93A007EF2B5 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8CEE0CE62816EDB3007EF2B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CEE0CE92816EDB3007EF2B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CEE0CEB2816EDB3007EF2B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CEE0CF12816F81D007EF2B5 /* WeatherClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherClasses.swift; sourceTree = "<group>"; };
+		8CEE0CF32816F93A007EF2B5 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				8CEE0CE62816EDB3007EF2B5 /* Assets.xcassets */,
 				8CEE0CE82816EDB3007EF2B5 /* LaunchScreen.storyboard */,
 				8CEE0CEB2816EDB3007EF2B5 /* Info.plist */,
+				8CEE0CF12816F81D007EF2B5 /* WeatherClasses.swift */,
+				8CEE0CF32816F93A007EF2B5 /* DataManager.swift */,
 			);
 			path = "Class22-ios-5";
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CEE0CE22816EDB1007EF2B5 /* ViewController.swift in Sources */,
+				8CEE0CF42816F93A007EF2B5 /* DataManager.swift in Sources */,
+				8CEE0CF22816F81D007EF2B5 /* WeatherClasses.swift in Sources */,
 				8CEE0CDE2816EDB1007EF2B5 /* AppDelegate.swift in Sources */,
 				8CEE0CE02816EDB1007EF2B5 /* SceneDelegate.swift in Sources */,
 			);
@@ -303,7 +311,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,7 +338,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
